@@ -5,7 +5,7 @@ Werkzeug Documentation:  http://werkzeug.pocoo.org/documentation/
 This file creates your application.
 """
 
-from os import name
+
 from .forms import ContactForm
 from app import app
 from flask import render_template, request, redirect, url_for, flash

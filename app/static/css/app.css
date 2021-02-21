@@ -1,3 +1,50 @@
 body {
     padding-top: 5rem;
 }
+.flashes{
+    padding: 0;
+}
+.flashes li{
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+
+.flashes .success{
+    background-color: #B1EA7F;
+    border: 1px solid #43A120;
+}
+
+.flashes .danger{
+    background-color: #DB2C3B;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #B71E39;
+}
+.required{
+    color: red;
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
+.btn{
+    background-color: #3e9ce9;
+    color: white;
+    width: 120px;
+    padding: 7px;
+}
+textarea{
+    padding: 30px;
+    width:400px;
+    border-radius: 8px;
+    border:rgb(173, 173, 173) 1px solid;
+}
+input{
+    width: 320px;
+    border-radius: 8px;
+    height: 40px;
+    /* padding-bottom: 20px; */
+    border:rgb(201, 201, 201) 1px solid;
+}
